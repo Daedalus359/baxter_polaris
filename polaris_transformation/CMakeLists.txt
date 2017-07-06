@@ -139,9 +139,7 @@ add_executable(polaris_transformation src/polaris_transformation.cpp)
 # add_dependencies(polaris_transformation_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(polaris_transformation_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(polaris_transformation ${catkin_LIBRARIES})
 
 #############
 ## Install ##
