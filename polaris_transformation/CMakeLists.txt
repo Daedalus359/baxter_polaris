@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   roscpp
   std_msgs
+  baxter_core_msgs
 )
 
 
